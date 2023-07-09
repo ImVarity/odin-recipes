@@ -3,8 +3,41 @@
     text-align: center;
 }
 
-.ingredients,
-.steps {
+ul,
+ol {
+    list-style: none;
     text-align: left;
 }
 
+.ingredients {
+    border: 1px dotted;
+    display: inline-block;
+    width: 100%;
+}
+
+.sauce-content {
+    display: inline-block;
+    border: 1px dotted;
+    width: 25%;
+
+}
+
+.chicken-burger-content {
+    display: inline-block;
+    border: 1px dotted;
+    width: 25%;
+    margin-top: 0px;
+}
+
+
+.description-content {
+    border: 1px dotted;
+    display: inline-block;
+    width: 40%;
+}
+ img {
+    display: inline-block;
+    border: 1px dotted;
+    width: 400px;
+    height: auto;
+ }
